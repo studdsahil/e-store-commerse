@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Game Store</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Game Store</h1>
+  </header>
+  
+  <section class="products">
+    <h2>Video Games</h2>
+    <div class="product">
+      <img src="https://images.freecreatives.com/wp-content/uploads/2015/04/Video-Game-Desktop-Backgrounds-2.jpg" alt="Game" style="height: 50px;" width="50px">
+      <h3>fortnight</h3>
+      <p>RS400.00</p>
+      <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+    </div>
+    <!-- Add more product elements here -->
+  </section>
+  
+  <section class="fan-gear">
+    <h2>Fan Gear</h2>
+    <div class="product">
+      <img src="https://static1.therichestimages.com/wordpress/wp-content/uploads/feature95.jpg" alt="mario" style="height: 50p;" width="40px">
+      <h3>mario</h3>
+      <p>RS600.00</p>
+      <button class="add-to-cart" data-product-id="2">Add to Cart</button>
+    </div>
+    <!-- Add more product elements here -->
+  </section>
+  <section class="new-one">
+    <h2>Video Games</h2>
+    <div class="product">
+      <img src="https://i2.wp.com/www.healthfitnessrevolution.com/wp-content/uploads/2015/05/iStock-520659161.jpg?fit=1183%2C887&ssl=1" alt="Game" style="height: 50px;" width="50px">
+      <h3>ladder</h3>
+      <p>RS400.00</p>
+      <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+    </div>
+    <!-- Add more product elements here -->
+  </section>
+
+
+  <aside class="cart">
+    <h2>Cart</h2>
+    <ul id="cart-items">
+      <!-- Cart items will be dynamically added here -->
+    </ul>
+    <p>Total: RS<span id="cart-total">0.00</span></p>
+    <button id="checkout">Checkout</button>
+  </aside>
+  
+  <script src="script.js"></script>
+</body>
+</html>

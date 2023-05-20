@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    border: 50px;
+    border-color: #f1f1f1;
+
+  }
+  
+  header, section {
+    margin-bottom: 20px;
+  }
+  
+  .product {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .cart {
+    float: right;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .cart button {
+    width: 100%;
+    color: blue;
+  }
+  
+  .cart p {
+    text-align: right;
+  }
+  
+  .cart ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .cart li {
+    margin-bottom: 10px;
+  }
